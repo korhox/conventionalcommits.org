@@ -114,9 +114,6 @@ Avainsanat "PITÄÄ" (“MUST”), "EI PIDÄ" (“MUST NOT"), "PAKOLLINEN" (“R
    Kuvaus on lyhyt tiivistelmä koodimuutoksista, esim., _fix: array parsing issue when multiple spaces were contained in string_.
 1. Pidemmän muutostekstin SAA kirjoittaa lyhyen kuvauksen jälkeen, joka antaa lisää kontekstuaalista tietoa koodimuutoksista. Tekstin PITÄÄ alkaa yhdellä tyhjällä rivillä kuvauksen jälkeen.
 1. Muutosteksti on vapaamuotoinen ja SAA sisältää vapaan määrän rivinvaihdolla erotettuja kappaleita.
-1. One or more footers MAY be provided one blank line after the body. Each footer MUST consist of
-   a word token, followed by either a `:<space>` or `<space>#` separator, followed by a string value (this is inspired by the
-   [git trailer convention](https://git-scm.com/docs/git-interpret-trailers)).
 1. Yhden tai useamman alatunnisteen SAA yhden tyhjän rivin jälkeen muutostekstistä. Jokaisessa alatunnisteessa PITÄÄ olla
    sanamerkki, jota seuraa joko `:<space>` tai `<space>#` erotin, jota seuraa merkkijonoarvo (tämän on inspiroinut
    [git trailer convention](https://git-scm.com/docs/git-interpret-trailers)).
